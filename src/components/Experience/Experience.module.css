@@ -36,6 +36,12 @@
   gap: 11px;
 }
 
+.skill:hover {
+  transform: scale(1.05);
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
 .skillImageContainer {
   background-color: var(--color-secondary);
   border-radius: 100%;
@@ -72,6 +78,12 @@
   background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
   border-radius: 10px;
   padding: 24px;
+}
+
+.historyItem:hover{
+  transform: scale(1.05);
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .historyItem img {

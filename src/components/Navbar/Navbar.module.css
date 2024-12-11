@@ -17,9 +17,19 @@
   color: var(--color-text);
 }
 
+.title:hover {
+  color: var(--color-primary);
+}
+
 
 .menuBtn {
   display: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.menuBtn:hover {
+  transform: scale(1.1);
 }
 
 .menu {
@@ -30,12 +40,40 @@
   display: flex;
   gap: 47px;
   list-style: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .menuItems a {
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
+  font-weight: 500;
+  position: relative;
+}
+
+.menuItems a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  background: var(--color-primary);
+  transition: width 0.3s ease;
+}
+
+.menuItems a:hover::after {
+  width: 100%;
+}
+
+.menuItems a:hover {
+  color: rgb(185, 137, 230);
+}
+
+.menuOpen {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media screen and (max-width: 830px) {

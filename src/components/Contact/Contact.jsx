@@ -12,20 +12,53 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="bhaveshnegi98@gmail.com">bhaveshnegi98@gmail.com</a>
+          <a
+            href="mailto:bhaveshnegi98@gmail.com"
+            aria-label="Email Bhavesh Negi"
+          >
+            <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+          </a>
+          <a href="mailto:bhaveshnegi98@gmail.com">bhaveshnegi98@gmail.com</a>
         </li>
         <li className={styles.link}>
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/in/bhavesh-negi-59314224a/">linkedin.com/Bhavesh Negi
+          <a
+            href="https://www.linkedin.com/in/bhavesh-negi-59314224a/"
+            aria-label="LinkedIn profile"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={getImageUrl("contact/linkedinIcon.png")}
+              alt="LinkedIn icon"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/bhavesh-negi-59314224a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin.com/Bhavesh Negi
           </a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/bhaveshnegi">github.com/bhaveshnegi</a>
+          <a
+            href="https://github.com/bhaveshnegi"
+            aria-label="GitHub profile"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={getImageUrl("contact/githubIcon.png")}
+              alt="Github icon"
+            />
+          </a>
+          <a
+            href="https://github.com/bhaveshnegi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github.com/bhaveshnegi
+          </a>
         </li>
       </ul>
     </footer>
