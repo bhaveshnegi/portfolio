@@ -1,26 +1,43 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Ecommerce Application",
+    "imageSrc": "projects/Ecommerce.png",
+    "description": "A full-stack e-commerce platform where users can browse, add to cart, and purchase products.",
+    "skills": ["React", "Express", "Node", "MongoDB"],
+    "demo": "https://ecommerce-application-lilac.vercel.app/",
+    "source": "https://github.com/bhaveshnegi/ecommerce-application"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Smart Yoga Products",
+    "imageSrc": "projects/smart-yoga.png",
+    "description": "A prototype e-commerce website for showcasing and selling smart yoga products.",
+    "skills": ["Next.js", "Express", "Node", "MongoDB"],
+    "demo": "https://smart-yoga-products-one.vercel.app/",
+    "source": "https://github.com/bhaveshnegi/Smart-Yoga-Products"
   },
   {
-    "title": "Project C",
+    "title": "User Management System",
+    "imageSrc": "projects/Usermanagement.png",
+    "description": "A React-based user management system enabling CRUD operations for managing users efficiently.",
+    "skills": ["React"],
+    "demo": "https://user-management-flax-one.vercel.app/",
+    "source": "https://github.com/bhaveshnegi/user-management"
+  },
+  {
+    "title": "Job Recommendation Service",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "A backend service for job recommendations using Node and MongoDB.",
+    "skills": ["Node", "Express", "MongoDB"],
+    "demo": "https://github.com/bhaveshnegi/job-recommendation-service",
+    "source": "https://github.com/bhaveshnegi/job-recommendation-service"
+  },
+  {
+    "title": "Turbofan Engine Maintenance Predictor",
+    "imageSrc": "projects/turbo.png",
+    "description": "A machine learning project to predict maintenance needs for turbofan engines.",
+    "skills": ["Python", "Machine Learning"],
+    "demo": "https://github.com/bhaveshnegi/upskillcampus",
+    "source": "https://github.com/bhaveshnegi/upskillcampus"
   }
+  
 ]
